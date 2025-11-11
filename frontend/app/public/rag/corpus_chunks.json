@@ -1,0 +1,17 @@
+[
+  {
+    "id": "doc1",
+    "text": "This project is a client-side RAG playground. It runs on React Native for Web and GitHub Pages without any backend.",
+    "source": "README"
+  },
+  {
+    "id": "doc2",
+    "text": "RAG stands for Retrieval Augmented Generation. The app retrieves relevant chunks from local JSON files and optionally uses a local LLM.",
+    "source": "docs"
+  },
+  {
+    "id": "doc3",
+    "text": "When WebGPU and WebLLM are not available, the app falls back to retrieval-only mode and displays the top matched chunks.",
+    "source": "design"
+  }
+]
