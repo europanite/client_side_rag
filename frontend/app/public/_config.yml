@@ -1,6 +1,6 @@
-title: "frontend_template"
-description: "A Template For Frontend Development."
-baseurl: "/frontend_template"
+title: "client_side_rag"
+description: "A Client Side Rag Playground."
+baseurl: "/client_side_rag"
 url: "https://europanite.github.io"
 theme: minima
 markdown: kramdown
