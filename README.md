@@ -6,11 +6,6 @@ Client Side Browseer Based RAG.
 
 ---
 
-##  🚀 PlayGround
- [Client Side RAG](https://europanite.github.io/lient_side_rag/)
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
@@ -19,6 +14,8 @@ Client Side Browseer Based RAG.
 ### 2. Build and start all services:
 
 ```bash
+# set environment variables:
+export REACT_NATIVE_PACKAGER_HOSTNAME=${YOUR_HOST}
 
 # Build the image
 docker compose build
