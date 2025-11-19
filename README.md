@@ -6,7 +6,7 @@
 
 [PlayGround](https://europanite.github.io/client_side_rag/)
 
-Client Side Browseer Based RAG. 
+Client Side Browser-Based RAG. 
 
 ---
 
