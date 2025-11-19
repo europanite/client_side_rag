@@ -1,8 +1,12 @@
 # [Client Side RAG](https://github.com/europanite/client_side_rag "Client Side RAG")
 
-Client Side Browseer Based RAG. 
+[![GitHub Pages](https://github.com/europanite/client_side_rag/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/europanite/client_side_rag/actions/workflows/deploy-pages.yml)
 
 !["web_ui"](./assets/images/web_ui.png)
+
+[PlayGround](https://europanite.github.io/client_side_rag/)
+
+Client Side Browseer Based RAG. 
 
 ---
 
@@ -24,4 +28,15 @@ docker compose build
 docker compose up
 ```
 
+### 3. Test:
+```bash
+docker compose \
+-f docker-compose.test.yml up \
+--build --exit-code-from \
+frontend_test
+```
+
 ---
+
+# License
+- Apache License 2.0
