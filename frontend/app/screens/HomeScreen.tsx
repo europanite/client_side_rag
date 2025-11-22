@@ -7,6 +7,8 @@ import {
   Button,
   ScrollView,
   ActivityIndicator,
+  TouchableOpacity,
+  Linking
 } from "react-native";
 import * as webllm from "@mlc-ai/web-llm";
 
@@ -274,8 +276,14 @@ export default function HomeScreen() {
       ? "Fallback mode: retrieval-only RAG (no WebGPU on this device)"
       : "Loading WebLLM / probing environment...";
 
+  const REPO_URL = "https://github.com/europanite/client_side_rag";
+
   return (
     <View style={{ flex: 1, padding: 16, gap: 8 }}>
+      <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
+        <Text style={styles.date}>Client-Side RAG</Text>
+      </TouchableOpacity>
+
       <Text style={{ fontWeight: "600" }}>{statusLabel}</Text>
 
       {initError && (
