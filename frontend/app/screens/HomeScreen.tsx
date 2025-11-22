@@ -8,7 +8,8 @@ import {
   ScrollView,
   ActivityIndicator,
   TouchableOpacity,
-  Linking
+  Linking,
+  StyleSheet,
 } from "react-native";
 import * as webllm from "@mlc-ai/web-llm";
 
@@ -92,7 +93,6 @@ export default function HomeScreen() {
 
       const hasWebGPU =
         typeof navigator !== "undefined" &&
-        // @ts-expect-error non-standard
         typeof (navigator as any).gpu !== "undefined";
 
       if (!hasWebGPU) {
@@ -281,7 +281,7 @@ export default function HomeScreen() {
   return (
     <View style={{ flex: 1, padding: 16, gap: 8 }}>
       <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
-        <Text style={styles.date}>Client-Side RAG</Text>
+        <Text style={styles.title}>Client-Side RAG</Text>
       </TouchableOpacity>
 
       <Text style={{ fontWeight: "600" }}>{statusLabel}</Text>
@@ -349,3 +349,12 @@ export default function HomeScreen() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  title: {
+    fontSize: 20,
+    fontWeight: "700",
+    marginBottom: 4,
+    color: "#111",
+  },
+});
