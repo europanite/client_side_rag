@@ -283,7 +283,11 @@ export default function HomeScreen() {
       <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
         <Text style={styles.title}>Client-Side RAG</Text>
       </TouchableOpacity>
-
+      <Text style={styles.description}>
+        This page is a client-side Retrieval-Augmented Generation (RAG) playground.
+        It runs entirely in your browser on top of React Native for Web and GitHub Pages,
+        so your questions and the retrieved context never leave this device.
+      </Text>
       <Text style={{ fontWeight: "600" }}>{statusLabel}</Text>
 
       {initError && (
@@ -356,5 +360,10 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     marginBottom: 4,
     color: "#111",
+  },
+  description: {
+    fontSize: 14,
+    color: "#333",
+    marginBottom: 8,
   },
 });
