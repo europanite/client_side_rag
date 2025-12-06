@@ -20,14 +20,7 @@ Everything runs in the browser using Expo / React Native for Web with an optiona
   - Retrieval runs entirely in the browser against a static JSON index (`corpus_chunks.json` and optional `corpus_embeddings.json`). 
 - 🤖 **Optional local LLM via WebLLM**
   - If WebGPU is available, the app initializes WebLLM in the browser and uses it to generate answers conditioned on retrieved context.
-  - If initialization fails or WebGPU is missing, the UI switches to a fallback mode and shows only retrieved chunks. :contentReference[oaicite:4]{index=4}
-- 📦 **Static hosting on GitHub Pages**
-  - The app is built with `expo export -p web` and published as static assets. :contentReference[oaicite:5]{index=5}
-- 🐳 **Docker-first local workflow**
-  - `docker-compose.yml` and `docker-compose.test.yml` are provided for consistent local runs and tests. 
-- ✅ **Jest tests & CI**
-  - GitHub Actions workflows run Jest tests, export the web build, run Docker-based tests, and deploy Pages. 
-- 🔐 **No custom backend**
+  - If initialization fails or WebGPU is missing, the UI switches to a fallback mode and shows only retrieved chunks.
   - There is no application server: only static hosting. Any API base env vars are for compatibility with other setups.
 
 ---
