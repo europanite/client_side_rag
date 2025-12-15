@@ -281,7 +281,18 @@ export default function HomeScreen() {
   return (
     <View style={{ flex: 1, padding: 16, gap: 8 }}>
       <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
-        <Text style={styles.title}>Client-Side RAG</Text>
+        <Text
+          style={{
+            fontSize: 24,
+            fontWeight: "800",
+             marginBottom: 12,
+            color: "#1d4ed8",
+            textDecorationLine: "underline",
+            underlined: true,
+          }}
+        >
+          Client-Side RAG
+        </Text>
       </TouchableOpacity>
       <Text style={styles.description}>
         This page is a client-side Retrieval-Augmented Generation (RAG) playground.
