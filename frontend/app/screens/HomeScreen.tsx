@@ -360,6 +360,8 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     marginBottom: 4,
     color: "#111",
+    textDecorationLine: "underline",
+    underlined: true,
   },
   description: {
     fontSize: 14,
