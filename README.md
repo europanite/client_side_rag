@@ -3,6 +3,7 @@
 ![OS](https://img.shields.io/badge/OS-Linux%20%7C%20macOS%20%7C%20Windows-blue)
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
 [![CI](https://github.com/europanite/client_side_rag/actions/workflows/ci.yml/badge.svg)](https://github.com/europanite/client_side_rag/actions/workflows/ci.yml)
 [![docker](https://github.com/europanite/client_side_rag/actions/workflows/docker.yml/badge.svg)](https://github.com/europanite/client_side_rag/actions/workflows/docker.yml)
