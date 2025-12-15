@@ -288,7 +288,6 @@ export default function HomeScreen() {
              marginBottom: 12,
             color: "#1d4ed8",
             textDecorationLine: "underline",
-            underlined: true,
           }}
         >
           Client-Side RAG
