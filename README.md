@@ -11,6 +11,8 @@
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 
+[![WebGPU](https://shields.io)](https://github.com/gpuweb/gpuweb)
+
 !["web_ui"](./assets/images/web_ui.png)
 
 [PlayGround](https://europanite.github.io/client_side_rag/)
